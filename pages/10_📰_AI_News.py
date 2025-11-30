@@ -14,12 +14,3 @@ st.set_page_config(
 css_file_path = "Style/main.css"
 # with open(css_file_path) as css:
 #     st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
-
-
-grid_cols = st.columns(3)
-
-for idx, (title, url) in enumerate(repositories.items()):
-    col = grid_cols[idx % 3]
-    with col:
-        st.text("")
-        html_element_creator.create_github_card(repo_url=url, title=title)
