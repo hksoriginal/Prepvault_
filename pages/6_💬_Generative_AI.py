@@ -1,6 +1,7 @@
 import streamlit as st
 from Mappers.gen_ai_mapper import GENAI_MAPPER
 from Utilities.html_element_creator import HTMLElementCreator
+import os
 
 st.set_page_config(
     page_title="Generative AI",
