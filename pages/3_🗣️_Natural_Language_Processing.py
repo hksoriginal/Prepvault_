@@ -8,8 +8,8 @@ st.set_page_config(layout="wide")
 
 html_creator = HTMLElementCreator()
 css_file_path = "Style/main.css"
-with open(css_file_path) as css:
-    st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
+# with open(css_file_path) as css:
+#     st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
 
 st.header("Natural Language Processing ")
 st.markdown("Natural Language Processing (NLP) is a field of artificial intelligence focused on enabling computers to understand, interpret, and generate human language. By combining techniques from linguistics, computer science, and machine learning, NLP allows machines to process text and speech in meaningful ways. Common NLP tasks include text classification, sentiment analysis, machine translation, and question answering. Modern advancements, particularly in deep learning and models like BERT and GPT, have significantly improved the ability of machines to handle complex language tasks, making NLP crucial for applications such as chatbots, language translation, and personal assistants.")

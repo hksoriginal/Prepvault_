@@ -12,8 +12,8 @@ st.set_page_config(
 
 html_creator = HTMLElementCreator()
 css_file_path = "Style/main.css"
-with open(css_file_path) as css:
-    st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
+# with open(css_file_path) as css:
+#     st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
 
 st.header("Deep Learning")
 st.divider()
