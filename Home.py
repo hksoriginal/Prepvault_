@@ -5,8 +5,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-
-
 st.set_page_config(
     page_title="Prepvault",
     layout="wide",
@@ -14,7 +12,7 @@ st.set_page_config(
 
 css_file_path = "Style/main.css"
 # with open(css_file_path) as css:
-#     st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
+# st.markdown(f"<style>{css.read()}</style", unsafe_allow_html=True)
 
 st.markdown("# PrepVault -  Comprehensive Preparation Vault")
 
