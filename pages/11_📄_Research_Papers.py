@@ -28,9 +28,10 @@ with search_cols[1]:
             "Recurrent Neural Networks", "AI Ethics", "AI Safety", "AI Interpretability",
             "AI Fairness", "AI Robustness", "AI Optimization", "AI in Healthcare",
             "AI in Finance", "AI in Robotics", "AI in Education", "AI in Gaming",
-            "AI in Autonomous Vehicles", "AI in Natural Sciences", "AI in Social Sciences"
+            "AI in Autonomous Vehicles", "AI in Natural Sciences", "AI in Social Sciences", ""
         ],
-        default=["artificial intelligence", "machine learning"]
+        default=["artificial intelligence", "machine learning"],
+        accept_new_options=True
     )
 
 # --- Dropdown for number of results ---
